@@ -1,4 +1,42 @@
-h1
-{
-    background-color: red;
+* {
+    max-width: 1400px;
+    box-sizing: border-box;
+    font-family: "Raleway";
+  }
+
+body {
+    margin-left: 55px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 19px;
+    width: 61px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    font-size: 16px;
+    margin-inline: 67px;
+}
+
+nav li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 22px;
+}
+
+
