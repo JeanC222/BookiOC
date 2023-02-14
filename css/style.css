@@ -5,7 +5,8 @@
   }
 
 body {
-    margin-left: 55px;
+    margin-left: 55px;           /* fixe marge gauche de l'écran */
+
 }
 
 header {
@@ -16,7 +17,7 @@ header {
 
 img {
     height: 19px;
-    width: 61px;
+    width: 61px;               /* w et h directement sur l'image car marche pas avec l'id */
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav li, a {
 
 nav a {
     padding-left: 26px;
-    padding-right: 26px;
+    padding-right: 26px;               /* parametrage de la barre nav */
     padding-top: 21px;
 }
 
@@ -50,3 +51,70 @@ nav a:hover {
    color: #0065FC;
 }
 
+/* FIN DU HEADER */
+/* début section search */
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.Titre_principaux {
+    font-size: 22px;
+}
+
+.paragraphe16px {
+    font-size: 16px;
+}
+
+#BarreRecherche {
+    display: flex;
+    align-items: center;
+
+}
+
+#locationicon {
+    display: flex;                        /* centrage de l'icone dans la div */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f2f2f2 ;
+    background-color: #f2f2f2;
+    width: 50px;
+    height: 49px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#locationicon i {
+    color: black;
+    width: 14px;
+    height: 18px;
+}
+
+#inputsearch {
+    width: 236px;
+    height: 49px;
+    border: 1px solid #f2f2f2;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    padding-left: 17px;
+}
+
+#inputsearch::placeholder {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+#boutonRechercher {
+    height: 49px;
+    width: 132px;
+    border: 1px #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
