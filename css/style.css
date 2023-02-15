@@ -15,6 +15,7 @@ header {
     align-items: center;
     margin-right: 56px;
     margin-top: 48px;
+    margin-bottom: 63px;
 }
 
 img {
@@ -59,16 +60,31 @@ nav a:hover {
    color: #0065FC;
 }
 
+
 /* FIN DU HEADER */
 /* début section search */
+
 
 section {
     display: flex;
     flex-direction: column;
 }
 
-.Titres_principaux {
+h1 {
     font-size: 22px;
+}
+
+#Titre_principal {
+    margin: 0;
+}
+
+section p {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+section div p {
+    margin: 0;               /* ajustement du a l'autre paragraphe */
 }
 
 .Titres_secondaires {
@@ -83,7 +99,7 @@ section {
 #BarreRecherche {
     display: flex;
     align-items: center;
-
+    margin-bottom: 32px;
 }
 
 #locationicon {
@@ -156,8 +172,8 @@ section nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
-    width: 70%;
+    margin-bottom: 35px;
+   
 }
 
 .boutonFiltres {
@@ -180,21 +196,34 @@ section nav {
     padding-left: 20px;
 }
 
+.boutonFiltres:hover {
+    background-color: #DEEBFF;
+}
+
 #Eco_Fam {
     display: flex;
-    justify-content: space-around;
-    width: 45%;
+    justify-content: space-around;      /*  Dispositions de la nav filtre */
+    margin-left: 36px;
+    
+}
+
+#iconEco {
+    margin-right: 36px;
+}
+
+#iconHeart {
+    margin-right: 36px;
 }
 
 #Rom_Ani {
     display: flex;
     justify-content: space-around;
-    width: 55%;
+    margin-left: 36px;
     
 }
 
 .fa-solid.fa-money-bill-wave {
-    font-size: 22px;
+    font-size: 22px;                    /* dimensions icons filtres */
 }
 
 .fa-solid.fa-person {
@@ -208,3 +237,26 @@ section nav {
 .fa-solid.fa-dog {
     font-size: 22px;
 }
+
+#infosLogements {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fa-solid.fa-info {
+    font-size: 10px;
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-right: 11px;                /* alignement icone paragraphe */
+    margin-bottom: 3px;
+}
+
+
+/* FIN DE LA SECTION */
+/* début CARD */
