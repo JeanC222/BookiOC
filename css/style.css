@@ -1,36 +1,44 @@
 * {
-    max-width: 1400px;
     box-sizing: border-box;
-    font-family: "Raleway";
   }
 
 body {
-    margin-left: 55px;           /* fixe marge gauche de l'écran */
-
+    margin: 0 auto;                   /* centre et supprime les marges de bases body */
+    max-width: 1400px;
+    font-family: "Raleway";           
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 56px;
-    margin-top: 48px;
-    margin-bottom: 63px;
+    height: 88px;
 }
 
-img {
-    height: 19px;
-    width: 61px;               /* w et h directement sur l'image car marche pas avec l'id */
+header nav {
+    height: 100%;
+    width: 25%;
 }
 
 nav ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
     margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
 }
 
 nav li {
+    display: flex;
+    align-items: center;
     font-size: 16px;
-
+    height: 100%;
 }
 
 nav li, a {
@@ -39,25 +47,31 @@ nav li, a {
     color: black;
 }
 
-nav a {            
-    padding-top: 47px;     /* parametrage de la barre nav */
-}
-
 #Hébergements {
-    padding-right: 21px;
-    padding-left: 21px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #Activités {
-    margin-left: 25px;
-    padding-left: 21px;
-    padding-right: 21px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 nav a:hover {
    border-top-style: solid ;
    border-top-color: 2px #0065FC;
    color: #0065FC;
+}
+
+img {
+    height: 19px;
+    width: 61px;               /* w et h directement sur l'image car marche pas avec l'id */
 }
 
 
@@ -68,8 +82,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: -5px;
-    margin-right: 50px;
 }
 
 section {
