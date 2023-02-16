@@ -271,6 +271,7 @@ section nav {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
+    border-radius: 20px;
 }
 
 #cardsContainer {
@@ -312,11 +313,19 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: -5px;
+    margin-right: 50px;
+}
+
+.fa-solid.fa-chart-line {
+    color: #0065FC;
 }
 
 #populaireContainer {
     display: flex;
     flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 20px;
 }
 
 #populaireTitle {
@@ -329,6 +338,30 @@ main {
 .populaireCard {
     display: flex;
     align-items: center;
+    border-radius: 20px;
+    border: 5px solid white;
+    background-color: #FFF;
 }
+
+main span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.paragraphe14px {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.populaireImg {
+    width: 137px;
+    height: 144px;
+    object-fit: cover;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+
 
 
