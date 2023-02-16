@@ -92,6 +92,11 @@ section div p {
     font-weight: 700;
 }
 
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .paragraphe16px {
     font-size: 16px;
 }
@@ -260,3 +265,70 @@ section nav {
 
 /* FIN DE LA SECTION */
 /* début CARD */
+
+
+#marseilleContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#cardsContainer section {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 5px solid #FFF;
+    background-color: #FFF;
+}
+
+.marseilleImg {
+    width: 246px;
+    height: 124px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.fa-solid.fa-star {
+    color: #0065FC;
+    font-size: 12px;
+}
+
+.fa-solid.fa-star.lastStar {
+    color: #f2f2f2;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#populaireContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#populaireTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.populaireCard {
+    display: flex;
+    align-items: center;
+}
+
+
