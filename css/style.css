@@ -64,6 +64,13 @@ nav a:hover {
 /* FIN DU HEADER */
 /* début section search */
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -5px;
+    margin-right: 50px;
+}
 
 section {
     display: flex;
@@ -266,22 +273,23 @@ section nav {
 /* FIN DE LA SECTION */
 /* début CARD */
 
+#marseillePopContainer {
+    display: flex;
+    flex-direction: row;
+}
 
 #marseilleContainer {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
+    width: 70%;
 }
 
 #cardsContainer {
     display: flex;
-    flex-direction: column;
-}
-
-#cardsContainer section {
-    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -309,14 +317,6 @@ section nav {
     color: #f2f2f2;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: -5px;
-    margin-right: 50px;
-}
-
 .fa-solid.fa-chart-line {
     color: #0065FC;
 }
@@ -326,6 +326,7 @@ main {
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
+    width: 30%;
 }
 
 #populaireTitle {
