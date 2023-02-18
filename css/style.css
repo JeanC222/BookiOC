@@ -263,7 +263,7 @@ section div p {
 #marseillePopContainer {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 3%;
 }
 
 #marseilleContainer {
@@ -271,20 +271,24 @@ section div p {
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 70%;
+    width: 66%;
     gap: 23px;
     padding-top: 42px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 46px;
 }
 
 #populaireContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 33px;
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 30%;
+    width: 31%;
+    padding-top: 41px;
+    padding-bottom: 34px;
 }
 
 h2 {
@@ -297,6 +301,7 @@ h2 {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+    width: 81%;
 }
 
 .fa-solid.fa-chart-line {
@@ -309,69 +314,97 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 31px;
-    row-gap: 30px;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .Marscard {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    border: 5px solid #FFF;
     background-color: #FFF;
     width: 30%;
-    gap: 9px;
-    padding-bottom: 11px;
+    height: 199px;
+    gap: 4px;
 }
 
 #afficherPLus {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-end;
     padding-left: 4px;
     font-size: 18px;
-    height: 21px;
-    font-weight: bold;
+    height: 38px;
+    font-weight: 700;
 }
 
 .populaireCard {
     display: flex;
     align-items: center;
     border-radius: 20px;
-    border: 5px solid white;
     background-color: #FFF;
+    gap: 15px;
+    width: 81%;
 }
 
 .marseilleImg {
     width: 100%;
     height: 124px;
     object-fit: cover;
+    border: 5px solid #FFF;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .populaireImg {
-    width: 137px;
+    width: 40%;
     height: 144px;
     object-fit: cover;
+    border: 5px solid white;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
 
-h3 {
+.marsElements {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 9px;
+    padding-left: 16px;
+}
+
+.cardElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 44px;
+    height: 100%;
+}
+
+.twoElements {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.marsTitle {
     font-size: 16px;
     font-weight: 700;
     margin: 0;
     height: 15px;
-    padding-left: 16px;
+}
+
+.PopsTitle {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .paragraphe14px {
     font-size: 14px;
     font-weight: 400;
     height: 15px;
-    padding-left: 16px;
 }
 
 main span {
@@ -383,7 +416,6 @@ main span {
     display: flex;
     gap: 2px;
     height: 12px;
-    padding-left: 16px;
 }
 
 .fa-solid.fa-star {
