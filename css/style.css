@@ -38,7 +38,7 @@ nav li {
     width: 100%;
 }
 
-nav li, a {
+li, a {
     list-style-type: none;
     text-decoration: none;
     color: black;
@@ -178,7 +178,7 @@ section div p {
     color: white;
 }
 
-#filtreTitre {
+.filtreTitre {
     font-size: 18px;
     font-weight: 700;
 }
@@ -430,7 +430,42 @@ main span {
 
 
 
+/*           FOOTER            */
 
+footer {
+    display: flex;
+    align-items: flex-end;
+    background-color: #f2f2f2;
+    height: 255px;
+    width: 100%;
+    padding-left: 70px;
+}
+
+.footElements {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    height: 180px;
+    gap: 20px;
+}
+
+.filtreTitre {
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
+}
+
+footer a {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 
