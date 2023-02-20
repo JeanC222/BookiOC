@@ -83,9 +83,10 @@ main {
     justify-content: space-between;
 }
 
-section {
+#principale {
     display: flex;
     flex-direction: column;
+    height: 300px;
 }
 
 #Titre_principal {
@@ -234,20 +235,19 @@ section div p {
 #infosLogements {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    gap: 11px;
 }
 
 .fa-solid.fa-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
     font-size: 10px;
     color: #0065FC;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    margin-right: 11px;                /* alignement icone paragraphe */
-    margin-bottom: 3px;
 }
 
 
@@ -321,7 +321,16 @@ h2 {
     width: 30%;
     height: 199px;
     gap: 4px;
-    filter: drop-shadow(0 0 0.25rem rgb(192, 188, 188)); 
+    filter: drop-shadow(0 0 0.25rem rgb(192, 188, 188));
+    transition: transform 0.2s; 
+}
+
+.Marscard:hover {
+    transform: scale(1.05);
+}
+
+.populaireCard:hover {
+    transform: scale(1.05);
 }
 
 #afficherPLus {
@@ -341,6 +350,7 @@ h2 {
     width: 81%;
     height: 144px;
     filter: drop-shadow(0 0 0.25rem rgb(192, 188, 188));
+    transition: transform 0.2s;
 }
 
 .populaireCard a {
@@ -463,6 +473,11 @@ main span {
     width: 100%;
     border-radius: 20px;
     box-shadow: 0px 6px 10px #f2f2f2;
+    transition: transform 0.2s;
+}
+
+.activitesCard:hover {
+    transform: scale(1.05);
 }
 
 .activitesCard img {
