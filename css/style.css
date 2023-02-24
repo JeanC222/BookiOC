@@ -3,9 +3,6 @@
   }
 
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
     margin: 0 auto;                   /* centre et supprime les marges de bases body */
     max-width: 1400px;
     font-family: "Raleway";           
@@ -18,6 +15,7 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     height: 67px;
+    margin-bottom: 60px;
 }
 
 #logo img {
@@ -49,15 +47,7 @@ li, a {
     color: black;
 }
 
-#Hébergements {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-}
-
-#Activités {
+.navlink {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -79,10 +69,10 @@ main {
     flex-direction: column;
 }
 
-#principale {
+.principale {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    margin-bottom: 37px;
 }
 
 #Titre_principal {
@@ -106,7 +96,7 @@ main {
     margin-bottom: 32px;
 }
 
-#locationicon {
+.locationicon {
     display: flex;                        /* centrage de l'icone dans la div */
     align-items: center;
     justify-content: center;
@@ -171,7 +161,7 @@ main {
     color: white;
 }
 
-#Filtres {
+.Filtres {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
@@ -209,7 +199,7 @@ main {
     background-color: #DEEBFF;
 }
 
-#infosLogements {
+.infosLogements {
     display: flex;
     align-items: center;
     gap: 11px;
@@ -230,7 +220,7 @@ main {
 
 /*    SECTION MARSEILLE POPULAIRE    */
 
-#marseillePopContainer {
+.marseillePopContainer {
     display: flex;
     gap: 2.98%;
     height: 626px;
@@ -248,12 +238,12 @@ main {
     height: 100%;
 }
 
-#marseilleBloc {
+.marseilleBloc {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 90.90%;
     height: 85.94%;
+    gap: 23px;
 }
 
 h2 {
@@ -261,7 +251,7 @@ h2 {
     font-size: 22px;
 }
 
-#cardsContainer {
+.cardsContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -271,12 +261,8 @@ h2 {
 }
 
 #afficherPLus {
-    display: flex;
-    align-items: flex-end;
     padding-left: 4px;
-    font-size: 18px;
-    height: 38px;
-    font-weight: 700;
+    margin-top: 17px;
 }
 
 .Marscard {
@@ -354,7 +340,7 @@ main span {
 
 /*       POPULAIRE CONTAINER         */
 
-#populaireContainer {
+.populaireContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -365,7 +351,7 @@ main span {
     width: 31%
 }
 
-#populaireTitle {
+.populaireTitle {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -373,7 +359,7 @@ main span {
     width: 81%;
 }
 
-#cardsPopContainer {
+.cardsPopContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -437,18 +423,19 @@ main span {
     flex-direction: column;
     justify-content: flex-end;
     gap: 19px;
-    height: 554px;
     width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-#activitesContainer {
+.activitesContainer {
     display: flex;
     gap: 3.22%;
     width: 100%;
     height: 445px;
 }
 
-#activitesContainer article {
+.activitesContainer article {
     width: 22.58%;
 }
 

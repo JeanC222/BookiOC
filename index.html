@@ -22,30 +22,30 @@
       <div id="logo"><img src="./images/logo/Booki.png" alt="Logo Booki"></div>
       <nav>
          <ul>
-            <li><a id="Hébergements" href="#marseillePopContainer">Hébergements</a></li>
-            <li><a id="Activités" href="#ActivitesMarseille">Activités</a></li>
+            <li><a class="navlink" href="#marseilleContainer">Hébergements</a></li>
+            <li><a class="navlink" href="#ActivitesMarseille">Activités</a></li>
          </ul>
       </nav>
    </header>
 
    <main>
 <!-- 1ere section -->
-   <section id="principale">
+   <section class="principale">
       <h1 id="Titre_principal">Trouvez votre hébergement pour des vacances de rêve</h1>
       <p class="paragraphe16px height">En plein centre-ville ou en pleine nature</p>
 <!-- Barre de recherche -->
       <div id="BarreRecherche">
-          <div id="locationicon" ><i class="fa-solid fa-location-dot"></i></div>
+          <div class="locationicon" ><i class="fa-solid fa-location-dot"></i></div>
 
           <form action="">
                <input type="search" name="rechercher" id="inputsearch" placeholder="Marseille, France" >
           </form>    
                <button id="boutonRechercher" type="button">Rechercher</button>
                <button id="boutonLoupe" type="button"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
-               <!-- // je n'ai pas intégrer le button dans le form pour éviter la petite marge  -->
+               <!--  je n'ai pas intégrer le button dans le form pour éviter la petite marge  -->
       </div>
 <!-- Filtres -->
-      <div id="Filtres">
+      <div class="Filtres">
          <p class="filtreTitre">Filtres</p>
 
              <button class="boutonFiltres"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
@@ -54,7 +54,7 @@
              <button class="boutonFiltres"><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
       </div>
 <!-- Infos sur les logements -->
-      <div id="infosLogements">
+      <div class="infosLogements">
          <i class="fa-solid fa-info"></i>
          <p class="paragraphe16px">Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
@@ -62,12 +62,12 @@
 
 
 <!-- Section conteneur Marseille et Populaire    -->
-   <section id="marseillePopContainer">
+   <section class="marseillePopContainer">
          <div id="marseilleContainer">
-            <div id="marseilleBloc">
+            <div class="marseilleBloc">
             <h2>Hébergements à Marseille</h2>
 <!-- Conteneur des Marseille cards -->
-            <div id="cardsContainer">
+            <div class="cardsContainer">
 <!-- Marseille Card                -->
                   <div class="Marscard">
                   <a href="#">
@@ -141,19 +141,19 @@
                   </a>
                   </div>
                </div>
-               <div id="afficherPLus"><a href="#"><p>Afficher plus</p></a></div>
+               <div id="afficherPLus"><a href="#"><p class="filtreTitre">Afficher plus</p></a></div>
             </div>                              
          </div>
 
          
-         <div id="populaireContainer">
+         <div class="populaireContainer">
 
-            <div id="populaireTitle">
+            <div class="populaireTitle">
 <!-- Conteneur des Populaires cards -->
                <h2>Les plus populaires</h2>
                <i class="fa-solid fa-chart-line"></i>
             </div>
-            <div id="cardsPopContainer">
+            <div class="cardsPopContainer">
 <!-- Populaires Card                -->
                <div class="populaireCard">
                <a href="#">
@@ -198,7 +198,7 @@
       <section id="ActivitesMarseille">
          <h2>Activités à Marseille</h2>
 <!-- Conteneur des Activités Cards -->
-         <div id="activitesContainer">
+         <div class="activitesContainer">
 <!-- Activités Card -->
             <article>
                <div class="activitesCard">
@@ -274,4 +274,4 @@
 
 
 </body> 
-</html> --> --> -->
+</html>
