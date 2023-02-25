@@ -64,25 +64,14 @@ nav a:hover {
 /*           FIN DU HEADER           */
 /*        début 1ere section         */
 
-main {
-    display: flex;
-    flex-direction: column;
-}
 
 .principale {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 37px;
 }
 
-#Titre_principal {
-    margin: 0;
+.Titre_principal {
+    margin-bottom: 8px;
     font-size: 22px;
-    height: 34px;
-}
-
-.height {
-    height: 39px;
 }
 
 .paragraphe16px {
@@ -90,10 +79,11 @@ main {
     margin: 0;
 }
 
-#BarreRecherche {
+.BarreRecherche {
     display: flex;
     align-items: center;
     margin-bottom: 32px;
+    margin-top: 20px;
 }
 
 .locationicon {
@@ -108,7 +98,7 @@ main {
     border-bottom-left-radius: 15px;
 }
 
-#locationicon i {
+.locationicon i {
     color: black;
     width: 14px;
     height: 18px;
@@ -178,6 +168,7 @@ main {
 .allbtnsFiltre {
     display: flex;
     gap: 36px;
+    flex-wrap: wrap;
 }
 
 .boutonFiltres {
@@ -217,7 +208,7 @@ main {
     width: 24px;
     height: 24px;
     font-size: 10px;
-    color: #0065FC;
+    color: .0065FC;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
 }
@@ -265,7 +256,7 @@ h2 {
     height: 79.55%;
 }
 
-#afficherPLus {
+.afficherPLus {
     padding-left: 4px;
     margin-top: 17px;
 }
@@ -524,21 +515,21 @@ footer ul {
     main {
         gap: 39px;
     }
-    #principale {
+    .principale {
         height: auto;
     }
-    #Titre_principal {
+    .Titre_principal {
         height: 39px;
     }
     #inputsearch {
         width: 253px;
     }
-    #Filtres {
+    .Filtres {
         flex-wrap: wrap;
         gap: 20px;
     }
     
-    #marseillePopContainer {
+    .marseillePopContainer {
         flex-direction: column;
         gap: 53px;
         height: auto;
@@ -547,17 +538,17 @@ footer ul {
         width: 100%;
         height: 626px;
     }
-    #afficherPLus {
+    .afficherPLus {
         align-items: flex-start;
     }
-    #populaireContainer {
+    .populaireContainer {
         width: 100%;
         height: 278px;
     }
-    #populaireTitle {
+    .populaireTitle {
         width: 90.90%;
     }
-    #cardsPopContainer {
+    .cardsPopContainer {
         flex-direction: row;
         gap: 2.60%;
         width: 90.9%;
