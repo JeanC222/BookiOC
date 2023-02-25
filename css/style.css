@@ -153,7 +153,7 @@ nav a:hover {
 
 .Filtres {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 32px;
     margin-bottom: 35px;
     padding-left: 7px;
@@ -208,7 +208,7 @@ nav a:hover {
     width: 24px;
     height: 24px;
     font-size: 10px;
-    color: .0065FC;
+    color: #0065FC;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
 }
@@ -402,8 +402,9 @@ main span {
 .cardElements {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 44px;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 12px;
 }
 
 .twoElements {
@@ -474,7 +475,7 @@ footer {
     display: flex;
     align-items: flex-end;
     background-color: #f2f2f2;
-    height: 255px;
+    height: 225px;
     width: 100%;
     padding-left: 70px;
 }
@@ -511,22 +512,21 @@ footer ul {
     }
     nav a:hover {
         border-top: none; 
-     }
-    main {
-        gap: 39px;
-    }
-    .principale {
-        height: auto;
     }
     .Titre_principal {
-        height: 39px;
+        margin-bottom: 13px;
     }
     #inputsearch {
         width: 253px;
     }
     .Filtres {
+        display: flex;
+        gap: 17px;
+    }
+    .allbtnsFiltre {
+        display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 22px;
     }
     
     .marseillePopContainer {
@@ -537,9 +537,6 @@ footer ul {
     #marseilleContainer {
         width: 100%;
         height: 626px;
-    }
-    .afficherPLus {
-        align-items: flex-start;
     }
     .populaireContainer {
         width: 100%;
@@ -557,8 +554,23 @@ footer ul {
         gap: 10px;
     }
     .cardElements {
-        justify-content: space-around;
-        gap: 0;
+        justify-content: space-between;
+        padding-top: 12px;
+    }
+    #ActivitesMarseille {
+        gap: 32px;
+        margin-top: 68px;
+        margin-bottom: 69px;
+    }
+    .activitesContainer {
+        height: 267px;
+        gap: 5.69%;
+    }
+    .activitesContainer article {
+        width: 20.72%;
+    }
+    .activitesCard img {
+        height: 211px;
     }
 }
 
