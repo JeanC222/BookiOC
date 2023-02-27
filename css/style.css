@@ -636,6 +636,69 @@ footer ul {
     .fa-solid.fa-info {
         font-size: 12px;
     }
+    .marseillePopContainer {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .populaireContainer {
+        height: 580px;
+        border-radius: 0;
+    }
+    .cardsPopContainer {
+        flex-direction: column;
+        gap: 11px;
+    }
+    .populaireCard {
+        width: 100%;
+    }
+    #marseilleContainer {
+        height: auto;
+        background-color: white;
+        border-radius: 0;
+        padding-top: 26px;
+    }
+    .marseilleBloc {
+        height: auto;
+        gap: 19px;
+    }
+    .cardsContainer {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .Marscard {
+        width: 100%;
+    }
+    .afficherPLus {
+        visibility: hidden;
+    }
+    #ActivitesMarseille {
+        gap: 24px;
+        width: 90.9%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .activitesContainer {
+        flex-direction: column;
+        height: auto;
+        gap: 24px;
+    }
+    .activitesContainer article {
+        width: 100%;
+    }
+    .activitesCard img {
+        height: 134px;
+    }
+    footer {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding-left: 30px;
+        padding-top: 45px;
+    }
+    .footElements {
+        width: auto;
+        height: 162px;
+    }
 }
 
 
