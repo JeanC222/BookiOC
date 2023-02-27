@@ -577,6 +577,7 @@ footer ul {
 @media screen and (max-width: 768px) {
     body {
         padding: 0;
+        overflow-x: hidden;
     }
     header {
         flex-direction: column;
