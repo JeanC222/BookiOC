@@ -136,7 +136,7 @@ nav a:hover {
 #boutonLoupe {
     visibility: hidden;               /* Bouton recherche mobile */
     position: relative;
-    right: 132px;
+    right: 12px;
     height: 49px;
     width: 49px;         
     border: 1px #0065FC;
@@ -601,14 +601,21 @@ footer ul {
        border-bottom: 3px solid #0065FC;
        color: #0065FC;
     }
+    .principale {
+        width: 90.90%;
+        margin: auto;
+        margin-bottom: 37px;
+    }
     .BarreRecherche {
         margin-top: 36px;
+        justify-content: center
     }
     #inputsearch {
         width: 232px;
     }
     #boutonRechercher {
         visibility: hidden;
+        width: 0;
     }
     #boutonLoupe {
         visibility: visible;
