@@ -120,9 +120,8 @@ nav a:hover {
     color: black;
 }
 
-#boutonRechercher {
-    visibility: visible;             /* Bouton recherche PC */
-    height: 49px;
+#boutonRechercher {             
+    height: 49px;                  /* Bouton recherche PC */
     width: 132px;
     border: 1px #0065FC;
     border-top-right-radius: 15px;
@@ -131,24 +130,6 @@ nav a:hover {
     color: white;
     font-size: 18px;
     font-weight: 700;
-}
-
-#boutonLoupe {
-    visibility: hidden;               /* Bouton recherche mobile */
-    position: relative;
-    right: 12px;
-    height: 49px;
-    width: 49px;         
-    border: 1px #0065FC;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #0065FC;
-}
-
-#boutonLoupe i {
-    width: 17px;
-    height: 17px;
-    color: white;
 }
 
 .Filtres {
@@ -577,7 +558,6 @@ footer ul {
 @media screen and (max-width: 768px) {
     body {
         padding: 0;
-        overflow-x: hidden;
     }
     header {
         flex-direction: column;
@@ -615,11 +595,20 @@ footer ul {
         width: 232px;
     }
     #boutonRechercher {
-        visibility: hidden;
-        width: 0;
+        display: none;
     }
-    #boutonLoupe {
-        visibility: visible;
+    #boutonLoupe {            /* Bouton recherche mobile */
+        height: 49px;
+        width: 49px;         
+        border: 1px #0065FC;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: #0065FC;
+    }
+    #boutonLoupe i {
+        width: 17px;
+        height: 17px;
+        color: white;
     }
     .Filtres {
         flex-direction: column;
