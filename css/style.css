@@ -132,6 +132,10 @@ nav a:hover {
     font-weight: 700;
 }
 
+#boutonLoupe {   
+    visibility: hidden;
+}
+
 .Filtres {
     display: flex;
     align-items: baseline;
@@ -597,7 +601,8 @@ footer ul {
     #boutonRechercher {
         display: none;
     }
-    #boutonLoupe {            /* Bouton recherche mobile */
+    #boutonLoupe {   
+        visibility: visible;         /* Bouton recherche mobile */
         height: 49px;
         width: 49px;         
         border: 1px #0065FC;
