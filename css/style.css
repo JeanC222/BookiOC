@@ -25,7 +25,7 @@ header {
 
 header nav {
     height: 100%;
-    width: 24%;
+    width: 30%;
 }
 
 nav ul {
@@ -482,21 +482,12 @@ footer ul {
     height: 100%;
 }
 
-/*       MEDIA QUERIES       */
+/*       MEDIA QUERIES  Tablette     */
 
 @media screen and (max-width: 992px) {
     body {
         padding-left: 56px;
         padding-right: 56px;
-    }
-    header nav {
-        width: auto;
-    }
-    nav ul {
-        gap: 67px;
-    }
-    nav a:hover {
-        border: none; 
     }
     .main-title {
         margin-bottom: 13px;
@@ -512,19 +503,16 @@ footer ul {
         display: flex;
         flex-wrap: wrap;
         gap: 22px;
-    }
-    
+    }    
     .marseille-pop-container {
         flex-direction: column;
         gap: 53px;
         height: auto;
-    }
-    
+    }    
     #marseille-container {
         width: 100%;
         height: 626px;
     }
-
     .populaire-container {
         width: 100%;
         height: 278px;
@@ -560,6 +548,8 @@ footer ul {
     }
 }
 
+/*       MEDIA QUERIES  mobile     */
+
 @media screen and (max-width: 768px) {
     body {
         padding: 0;
@@ -585,6 +575,7 @@ footer ul {
     }
     nav a:hover {
        border-bottom: 3px solid #0065FC;
+       border-top: none;
        color: #0065FC;
     }
     .main-section {
@@ -594,10 +585,12 @@ footer ul {
     }
     .search-bar {
         margin-top: 36px;
-        justify-content: center
+    }
+    .search-bar form {
+        width: 80%;
     }
     #input-search {
-        width: 232px;
+        width: 100%;
     }
     #search-button {
         display: none;
@@ -623,14 +616,15 @@ footer ul {
     .all-btns-filter {
         column-gap: 14px;
         row-gap: 17px;
+        width: 100%;
     }
     .filter-button {
         font-size: 11px;
-        width: 160px;
         padding: 0;
+        width: 47%;
     }
     .filter-button i {
-        width: 39px;
+        width: 50px;
         padding: 0;
     }
     .info {
