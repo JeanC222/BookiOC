@@ -376,7 +376,7 @@ main span {
 }
 
 .populaireImg {
-    width: 40%;
+    width: 39.78%;
     height: 144px;
     object-fit: cover;
     border: 5px solid white;
@@ -390,7 +390,7 @@ main span {
     justify-content: space-between;
     padding-top: 16px;
     padding-bottom: 12px;
-    width: 60%; /* firefox */
+    width: 55.45%; /* firefox */
 }
 
 .two-elements {
