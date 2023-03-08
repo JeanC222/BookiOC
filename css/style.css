@@ -428,12 +428,8 @@ main span {
     height: 445px;
 }
 
-.activities-container article {
-    width: 22.58%;
-}
-
 .activities-card {
-    width: 100%;
+    width: 22.58%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
@@ -566,7 +562,7 @@ footer ul {
         gap: 5.69%;
     }
 
-    .activities-container article {
+    .activities-card {
         width: 20.72%;
     }
 
@@ -737,7 +733,7 @@ footer ul {
         gap: 24px;
     }
 
-    .activities-container article {
+    .activities-card {
         width: 100%;
     }
 
