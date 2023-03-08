@@ -604,7 +604,7 @@ footer ul {
 
     nav a:hover {
         border-bottom: 3px solid #0065FC;
-        border-top: none;
+        border-top: 3px solid transparent;
         color: #0065FC;
     }
 
