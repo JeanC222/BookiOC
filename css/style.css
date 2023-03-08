@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 body {
-    margin: 0 auto;                   /* centre et supprime les marges de bases body */
+    margin: 0 auto;
+    /* centre et supprime les marges de bases body */
     max-width: 1400px;
-    font-family: "Raleway";           
+    font-family: "Raleway";
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -20,7 +21,7 @@ header {
 
 #logo img {
     height: 19px;
-    width: 61px;               /* w et h directement sur l'image car marche pas avec l'id */
+    width: 61px;
 }
 
 header nav {
@@ -41,7 +42,8 @@ nav li {
     width: 100%;
 }
 
-li, a {
+li,
+a {
     list-style-type: none;
     text-decoration: none;
     color: black;
@@ -56,8 +58,8 @@ li, a {
 }
 
 nav a:hover {
-   border-top: 3px solid #0065FC;
-   color: #0065FC;
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
 }
 
 
@@ -87,10 +89,10 @@ nav a:hover {
 }
 
 .location-icon {
-    display: flex;                        /* centrage de l'icone dans la div */
+    display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #f2f2f2 ;
+    border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
     width: 50px;
     height: 49px;
@@ -117,12 +119,14 @@ nav a:hover {
 #input-search::placeholder {
     font-size: 18px;
     font-weight: 700;
-    opacity: 1; /* firefox */
+    opacity: 1;
+    /* firefox */
     color: black;
 }
 
-#search-button {             
-    height: 49px;                  /* Bouton recherche PC */
+#search-button {
+    height: 49px;
+    /* Bouton recherche PC */
     width: 132px;
     border: 1px #0065FC;
     border-top-right-radius: 15px;
@@ -133,7 +137,7 @@ nav a:hover {
     font-weight: 700;
 }
 
-#phone-button {   
+#phone-button {
     visibility: hidden;
 }
 
@@ -148,7 +152,7 @@ nav a:hover {
 .filter-title {
     font-size: 18px;
     font-weight: 700;
-    margin: 0; 
+    margin: 0;
 }
 
 .all-btns-filter {
@@ -253,8 +257,8 @@ h2 {
     border-radius: 20px;
     background-color: #FFF;
     width: 30.75%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: transform 0.2s; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
 }
 
 .mars-card a {
@@ -264,8 +268,10 @@ h2 {
 
 .mars-card:hover {
     transform: scale(1.05);
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
 }
 
 .marseilleImg {
@@ -359,14 +365,16 @@ main span {
     background-color: #FFF;
     width: 81%;
     height: 144px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
 }
 
 .populaire-card:hover {
     transform: scale(1.05);
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
 }
 
 .populaire-card a {
@@ -390,7 +398,8 @@ main span {
     justify-content: space-between;
     padding-top: 16px;
     padding-bottom: 12px;
-    width: 55.45%; /* firefox */
+    width: 55.45%;
+    /* firefox */
 }
 
 .two-elements {
@@ -426,14 +435,16 @@ main span {
 .activities-card {
     width: 100%;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
 }
 
 .activities-card:hover {
-    transform: scale(1.05);  
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
 }
 
 .activities-card img {
@@ -490,60 +501,75 @@ footer ul {
         padding-left: 56px;
         padding-right: 56px;
     }
+
     .main-title {
         margin-bottom: 13px;
     }
+
     #input-search {
         width: 253px;
     }
+
     .filters {
         display: flex;
         gap: 17px;
     }
+
     .all-btns-filter {
         display: flex;
         flex-wrap: wrap;
         gap: 22px;
-    }    
+    }
+
     .marseille-pop-container {
         flex-direction: column;
         gap: 53px;
         height: auto;
-    }    
+    }
+
     #marseille-container {
         width: 100%;
         height: 626px;
     }
+
     .populaire-container {
         width: 100%;
         height: 278px;
     }
+
     .populaire-title {
         width: 90.90%;
     }
+
     .cards-pop-container {
         flex-direction: row;
         gap: 2.60%;
         width: 90.9%;
     }
+
     .populaire-card a {
         gap: 10px;
     }
+
     .card-elements {
         padding-top: 12px;
     }
+
     #activities-marseille {
         gap: 32px;
         margin-top: 68px;
         margin-bottom: 69px;
     }
+
     .activities-container {
         height: 267px;
         gap: 5.69%;
     }
+
     .activities-container article {
         width: 20.72%;
     }
+
     .activities-card img {
         height: 211px;
     }
@@ -555,137 +581,170 @@ footer ul {
     body {
         padding: 0;
     }
+
     header {
         flex-direction: column;
         align-items: center;
         height: 130px;
         margin-bottom: 31px;
     }
+
     #logo {
         padding-top: 21px;
     }
+
     header nav {
         width: 100%;
         height: 50%;
     }
+
     nav ul {
         gap: 0;
     }
+
     .nav-link {
         align-items: center;
     }
+
     nav a:hover {
-       border-bottom: 3px solid #0065FC;
-       border-top: none;
-       color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+        color: #0065FC;
     }
+
     .main-section {
         width: 90.90%;
         margin: auto;
         margin-bottom: 37px;
     }
+
     .search-bar {
         margin-top: 36px;
     }
+
     .search-bar form {
         width: 80%;
     }
+
     #input-search {
         width: 100%;
     }
+
     #search-button {
         display: none;
     }
-    #phone-button {   
-        visibility: visible;         /* Bouton recherche mobile */
+
+    #phone-button {
+        visibility: visible;
         height: 49px;
-        width: 49px;         
+        width: 49px;
         border: 1px #0065FC;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         background-color: #0065FC;
     }
+
     #phone-button i {
         width: 17px;
         height: 17px;
         color: white;
     }
+
     .filters {
         flex-direction: column;
         margin-bottom: 40px;
     }
+
     .all-btns-filter {
         column-gap: 14px;
         row-gap: 17px;
         width: 100%;
     }
+
     .filter-button {
         font-size: 11px;
         padding: 0;
         width: 47%;
     }
+
     .filter-button i {
         width: 50px;
         padding: 0;
     }
+
     .info {
         align-items: baseline;
     }
+
     .fa-solid.fa-info {
         font-size: 12px;
     }
+
     .marseille-pop-container {
         flex-direction: column-reverse;
         gap: 0;
     }
+
     .populaire-container {
         height: 580px;
         border-radius: 0;
     }
+
     .cards-pop-container {
         flex-direction: column;
         gap: 11px;
     }
+
     .populaire-card {
         width: 100%;
     }
+
     #marseille-container {
         height: auto;
         background-color: white;
         border-radius: 0;
         padding-top: 26px;
     }
+
     .marseille-bloc {
         height: auto;
         gap: 19px;
     }
+
     .cards-container {
         flex-direction: column;
         gap: 12px;
     }
+
     .mars-card {
         width: 100%;
     }
+
     .show-more {
         visibility: hidden;
     }
+
     #activities-marseille {
         gap: 24px;
         width: 90.9%;
         margin: auto;
         margin-bottom: 80px;
     }
+
     .activities-container {
         flex-direction: column;
         height: auto;
         gap: 24px;
     }
+
     .activities-container article {
         width: 100%;
     }
+
     .activities-card img {
         height: 134px;
     }
+
     footer {
         flex-direction: column;
         height: auto;
@@ -693,11 +752,9 @@ footer ul {
         padding-left: 30px;
         padding-top: 45px;
     }
+
     .foot-elements {
         width: auto;
         height: 162px;
     }
 }
-
-
-
